@@ -1,15 +1,14 @@
 @use "variables";
+@use "mixins";
 
 .section__main{
   padding: 129px 67px 172px 73px;
   &__wrapper{
-    display: inline-flex;
-    flex-direction: row;
+    @include mixins.flex-row;
     flex-wrap: nowrap;
   }
   &__content{
-    display: flex;
-    flex-direction: column;
+    @include mixins.flex-column;
     align-content: flex-start;
     max-width: 552px;
   }

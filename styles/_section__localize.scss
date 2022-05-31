@@ -1,25 +1,21 @@
+@use "mixins";
+
 .section__localize{
   background: #FFF8E4;
   padding: 120px 115px 150px 115px;
   &__wrapper{
-    display: flex;
-    flex-direction: column;
+    @include mixins.flex-column;
     align-items: center;
     gap: 58px;
   }
   &__content{
-    //display: flex;
-    //flex-direction: row;
-    //flex-wrap: wrap;
-    //gap: 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 110px;
     grid-row-gap: 75px;
   }
   &__block{
-    display: flex;
-    flex-direction: column;
+    @include mixins.flex-column;
     align-items: center;
     max-width: 330px;
     max-height: 294px;

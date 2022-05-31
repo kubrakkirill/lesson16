@@ -1,9 +1,10 @@
+@use "mixins";
+
 .section__localization{
   background: #FF9C7D;
   padding: 108px 75px 104px 75px;
   &__wrapper{
-    display: flex;
-    flex-direction: column;
+    @include mixins.flex-column;
     align-items: center;
     justify-content: space-around;
     gap: 70px;
@@ -13,8 +14,7 @@
         align-items: center;
       }
   &__labels{
-    display: inline-flex;
-    flex-direction: row;
+    @include mixins.flex-row;
     gap: 100px;
     align-items: center;
   }

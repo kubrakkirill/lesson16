@@ -1,10 +1,10 @@
 @use "variables";
+@use "mixins";
 
 .header{
   &__wrapper{
     padding: 25px 51px;
-    display: flex;
-    flex-direction: row;
+    @include mixins.flex-row;
     align-items: center;
     border-bottom: 1px solid #CCCCCC;
   }

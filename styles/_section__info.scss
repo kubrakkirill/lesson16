@@ -1,13 +1,13 @@
+@use "mixins";
+
 .section__info{
   padding: 90px 75px 150px 75px;
   &__wrapper{
-    display: flex;
-    flex-direction: column;
+    @include mixins.flex-column;
     gap: 250px;
   }
   &__wrapper__block{
-    display: inline-flex;
-    flex-direction: row;
+    @include mixins.flex-row;
     align-items: center;
     gap: 138px;
   }
@@ -21,8 +21,7 @@
   font-weight: 600;
 }
 .info__block__content{
-  display: flex;
-  flex-direction: column;
+  @include mixins.flex-column;
   gap: 30px;
   max-width: 520px;
 }
