@@ -1,3 +1,5 @@
+@use "variables";
+
 .header{
   &__wrapper{
     padding: 25px 51px;
@@ -51,7 +53,6 @@
   &__try{
     color: #FFFFFF;
     padding: 0 21px 0 22px;
-    background: #FF6336;
-    border: 1px;
+    background: variables.$button__bg;
   }
 }
