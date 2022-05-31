@@ -1,0 +1,44 @@
+.section__main{
+  padding: 129px 67px 172px 73px;
+  &__wrapper{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  &__content{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    max-width: 552px;
+  }
+  &__img{
+    max-width: 759px;
+  }
+}
+.section__main__text{
+  margin-top: 51px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  max-width: 471px;
+  margin-bottom: 50px;
+}
+.section__main__button{
+  display: inline-flex;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 25px;
+  &__try{
+    padding: 0 41px 0 42px;
+    color: #FFFFFF;
+    background: #FF6336;
+    border: 1px;
+  }
+  &__book{
+    padding: 0 28px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+}
