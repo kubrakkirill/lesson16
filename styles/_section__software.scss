@@ -1,0 +1,26 @@
+@use "mixins";
+
+
+.section__software{
+  padding: 80px 138px 84px 54px;
+  background: #DABC98;
+  &__software{
+    @include mixins.flex-row;
+    align-items: center;
+  }
+}
+.software__title{
+  max-width: 461px;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 50px;
+}
+.software__cake{
+  max-width: 176px;
+}
+.software__users{
+  max-width: 128px;
+}
+.software__highest{
+  max-width: 150px;
+}

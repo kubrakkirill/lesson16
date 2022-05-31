@@ -277,6 +277,72 @@
   max-width: 179px;
 }
 
+.section__revolut {
+  background: #C9E8F2;
+  padding: 63px 75px 105px 75px;
+}
+.section__revolut__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 59px;
+}
+.section__revolut__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.revolut__text {
+  max-width: 920px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 23px;
+}
+
+.revolut__man__name {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 7px;
+}
+
+.revolut__logo {
+  max-width: 115px;
+}
+
+.section__revolut__img {
+  max-width: 310px;
+}
+
+.section__software {
+  padding: 80px 138px 84px 54px;
+  background: #DABC98;
+}
+.section__software__software {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.software__title {
+  max-width: 461px;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.software__cake {
+  max-width: 176px;
+}
+
+.software__users {
+  max-width: 128px;
+}
+
+.software__highest {
+  max-width: 150px;
+}
+
 @font-face {
   font-family: "Graphik LCG";
   src: url(fonts/regular/GraphikLCG-Regular.woff2) format("woff2"), url(fonts/regular/GraphikLCG-Regular.woff) format("woff");
