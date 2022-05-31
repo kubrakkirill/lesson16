@@ -4,8 +4,8 @@
 .section__software{
   padding: 80px 138px 84px 54px;
   background: #DABC98;
-  &__software{
-    @include mixins.flex-row;
+  &__wrapper{
+    display: inline-flex;
     align-items: center;
   }
 }
@@ -14,12 +14,21 @@
   font-weight: 600;
   font-size: 35px;
   line-height: 50px;
+  margin-right: 124px;
 }
 .software__cake{
   max-width: 176px;
+  margin-right: 67px;
+}
+.software__line{
+  width: 1px;
+  height: 168px;
+  background: #000;
+  margin-right: 71px;
 }
 .software__users{
   max-width: 128px;
+  margin-right: 70px;
 }
 .software__highest{
   max-width: 150px;

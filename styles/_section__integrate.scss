@@ -1,0 +1,33 @@
+@use "mixins";
+@use "variables";
+
+.section__integrate{
+  padding: 165px 209px 162px 208px;
+  &__wrapper{
+    @include mixins.flex-column;
+    align-items: center;
+  }
+}
+.section__integrate__wrapper{
+  text-align: center;
+}
+.integrate__text{
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  max-width: 539px;
+  margin-bottom: 25px;
+}
+.integrate__img{
+  max-width: 1023px;
+  margin-bottom: 32px;
+}
+.integrate__button{
+  padding: 0 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 60px;
+  color: #FFFFFF;
+  background: variables.$button__bg;
+}

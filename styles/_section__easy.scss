@@ -1,0 +1,31 @@
+@use "variables";
+@use "mixins";
+
+.section__easy{
+  padding: 119px 328px 161px 328px;
+  background: #FF9C7D;
+  &__wrapper{
+    @include mixins.flex-column;
+    align-items: center;
+  }
+}
+.section__easy h4{
+  text-align: center;
+  margin-bottom: 29px;
+}
+.easy__text{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 54px;
+}
+.easy__button{
+  padding: 0 40px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 60px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #000000;
+}
