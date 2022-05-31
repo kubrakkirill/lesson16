@@ -421,6 +421,106 @@
   background: #000000;
 }
 
+.section__footer {
+  padding: 62px 35px 25px 35px;
+}
+.section__footer__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer__content {
+  margin-right: 140px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.footer__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 28px;
+}
+
+.footer__content__img {
+  max-width: 300px;
+  margin-bottom: 31px;
+}
+
+.footer__content__logo {
+  max-width: 80px;
+  margin-bottom: 11px;
+}
+
+.footer__content__text {
+  max-width: 290px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.footer__content__link {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer__menu {
+  max-width: 850px;
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+  margin-top: 5px;
+}
+
+.footer__menu__block {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 187px;
+}
+.footer__menu__block h5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+}
+.footer__menu__block__link {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.footer__line {
+  margin-top: 95px;
+  width: 1290px;
+  height: 1px;
+  background: #000;
+  margin-bottom: 47px;
+}
+
+.footer__footer {
+  display: flex;
+  flex-direction: row;
+}
+.footer__footer__logo {
+  max-width: 90px;
+  margin-right: 14px;
+}
+.footer__footer__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin-right: 700px;
+}
+.footer__footer__info {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
 @font-face {
   font-family: "Graphik LCG";
   src: url(fonts/regular/GraphikLCG-Regular.woff2) format("woff2"), url(fonts/regular/GraphikLCG-Regular.woff) format("woff");

@@ -1,0 +1,88 @@
+@use "variables";
+@use "mixins";
+
+.section__footer{
+  padding: 62px 35px 25px 35px;
+  &__wrapper{
+    @include mixins.flex-row;
+    //gap: 140px;
+    flex-wrap: wrap;
+  }
+}
+.footer__content{
+  margin-right: 140px;
+  @include mixins.flex-column;
+  max-width: 300px;
+}
+.footer__title{
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 28px;
+}
+.footer__content__img{
+  max-width: 300px;
+  margin-bottom: 31px;
+}
+.footer__content__logo{
+  max-width: 80px;
+  margin-bottom: 11px;
+}
+.footer__content__text{
+  max-width: 290px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.footer__content__link{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.footer__menu {
+  max-width: 850px;
+  @include mixins.flex-row;
+  gap: 34px;
+  margin-top: 5px;
+}
+.footer__menu__block{
+  @include mixins.flex-column;
+  gap: 15px;
+  min-width: 187px;
+  & h5{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  &__link{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+  }
+}
+.footer__line{
+  margin-top: 95px;
+  width: 1290px;
+  height: 1px;
+  background: #000;
+  margin-bottom: 47px;
+}
+.footer__footer{
+  @include mixins.flex-row;
+  &__logo{
+    max-width: 90px;
+    margin-right: 14px;
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 700px;
+  }
+  &__info{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
